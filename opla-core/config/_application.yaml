@@ -1,0 +1,9 @@
+--- !DirTarget
+pathToTemplateModelsDirectory: /Users/elf/Desktop/templates/
+directoryToSaveModels: manipulation/
+directoryToExportModels: /Users/elf/Desktop/output/
+pathToProfile:  /Users/elf/Documents/workspaceModeling/profiles/smarty.profile.uml
+pathToProfileConcern:  /Users/elf/mestrado/sourcesMestrado/arquitetura/perfis/concerns.profile.uml
+pathToProfileRelationships:  /Users/elf/Documents/workspaceModeling/profiles/relationships.profile.uml
+pathToProfilePatterns:  /Users/elf/Documents/workspaceModeling/profiles/patterns.profile.uml
+
