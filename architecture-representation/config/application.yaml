@@ -1,0 +1,9 @@
+--- !DirTarget
+pathToTemplateModelsDirectory: filesTemplates/
+directoryToSaveModels: manipulation/
+directoryToExportModels: /Users/elf/mestrado/sourcesMestrado/architecture-representation/output/
+pathToProfile: perfis/smarty.profile.uml
+pathToProfileConcern: perfis/concerns.profile.uml
+pathToProfileRelationships: perfis/relationships.profile.uml
+pathToProfilePatterns:  perfis/patterns.profile.uml
+

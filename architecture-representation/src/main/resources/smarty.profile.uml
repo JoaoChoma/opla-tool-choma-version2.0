@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_o5pOAMn3EeKFvPutDPHc0Q" name="smartyProfile" metaclassReference="_o5p1EMn3EeKFvPutDPHc0Q _o5p1Ecn3EeKFvPutDPHc0Q _o5p1Esn3EeKFvPutDPHc0Q _o5p1E8n3EeKFvPutDPHc0Q _o5p1FMn3EeKFvPutDPHc0Q">
+  <elementImport xmi:id="_o5p1EMn3EeKFvPutDPHc0Q">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <elementImport xmi:id="_o5p1Ecn3EeKFvPutDPHc0Q">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <elementImport xmi:id="_o5p1Esn3EeKFvPutDPHc0Q">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Comment"/>
+  </elementImport>
+  <elementImport xmi:id="_o5p1E8n3EeKFvPutDPHc0Q">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <elementImport xmi:id="_o5p1FMn3EeKFvPutDPHc0Q">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Stereotype"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_o5p1Fcn3EeKFvPutDPHc0Q" name="BindingTime">
+    <ownedLiteral xmi:id="_o5p1Fsn3EeKFvPutDPHc0Q" name="DESIGN_TIME"/>
+    <ownedLiteral xmi:id="_o5p1F8n3EeKFvPutDPHc0Q" name="LINK_TIME"/>
+    <ownedLiteral xmi:id="_o5p1GMn3EeKFvPutDPHc0Q" name="COMPILE_TIME"/>
+    <ownedLiteral xmi:id="_o5p1Gcn3EeKFvPutDPHc0Q" name="RUN_TIME"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_o5p1Gsn3EeKFvPutDPHc0Q" name="variationPoint">
+    <ownedAttribute xmi:id="_o5p1G8n3EeKFvPutDPHc0Q" name="base_Class" association="_o5p1KMn3EeKFvPutDPHc0Q">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_o5p1HMn3EeKFvPutDPHc0Q" name="numberOfVariants">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o5p1Hcn3EeKFvPutDPHc0Q" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o5p1Hsn3EeKFvPutDPHc0Q" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_o5p1H8n3EeKFvPutDPHc0Q" name="variants">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o5p1IMn3EeKFvPutDPHc0Q" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o5p1Icn3EeKFvPutDPHc0Q" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_o5p1Isn3EeKFvPutDPHc0Q" name="variabilities">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o5p1I8n3EeKFvPutDPHc0Q" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o5p1JMn3EeKFvPutDPHc0Q" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_o5p1Jcn3EeKFvPutDPHc0Q" name="bindingTime" type="_o5p1Fcn3EeKFvPutDPHc0Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o5p1Jsn3EeKFvPutDPHc0Q" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o5p1J8n3EeKFvPutDPHc0Q" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_o5p1KMn3EeKFvPutDPHc0Q" name="Class_variationPoint" memberEnd="_o5p1Kcn3EeKFvPutDPHc0Q _o5p1G8n3EeKFvPutDPHc0Q">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_o5p1Kcn3EeKFvPutDPHc0Q" name="extension_variationPoint" type="_o5p1Gsn3EeKFvPutDPHc0Q" aggregation="composite" association="_o5p1KMn3EeKFvPutDPHc0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_o5p1Ksn3EeKFvPutDPHc0Q" name="variant" isAbstract="true">
+    <ownedAttribute xmi:id="_o5p1K8n3EeKFvPutDPHc0Q" name="base_Class" association="_o5p1Msn3EeKFvPutDPHc0Q">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_o5p1LMn3EeKFvPutDPHc0Q" name="rootVP">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o5p1Lcn3EeKFvPutDPHc0Q" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o5p1Lsn3EeKFvPutDPHc0Q" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_o5p1L8n3EeKFvPutDPHc0Q" name="variabilities">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o5p1MMn3EeKFvPutDPHc0Q" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o5p1Mcn3EeKFvPutDPHc0Q" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_o5p1Msn3EeKFvPutDPHc0Q" name="Class_variant" memberEnd="_o5p1M8n3EeKFvPutDPHc0Q _o5p1K8n3EeKFvPutDPHc0Q">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_o5p1M8n3EeKFvPutDPHc0Q" name="extension_variant" type="_o5p1Ksn3EeKFvPutDPHc0Q" aggregation="composite" association="_o5p1Msn3EeKFvPutDPHc0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_o5p1NMn3EeKFvPutDPHc0Q" name="mandatory">
+    <generalization xmi:id="_o5p1Ncn3EeKFvPutDPHc0Q" general="_o5p1Ksn3EeKFvPutDPHc0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_o5p1Nsn3EeKFvPutDPHc0Q" name="optional">
+    <generalization xmi:id="_o5p1N8n3EeKFvPutDPHc0Q" general="_o5p1Ksn3EeKFvPutDPHc0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_o5p1OMn3EeKFvPutDPHc0Q" name="alternative_OR">
+    <generalization xmi:id="_o5qcIMn3EeKFvPutDPHc0Q" general="_o5p1Ksn3EeKFvPutDPHc0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_o5qcIcn3EeKFvPutDPHc0Q" name="alternative_XOR">
+    <generalization xmi:id="_o5qcIsn3EeKFvPutDPHc0Q" general="_o5p1Ksn3EeKFvPutDPHc0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_o5qcI8n3EeKFvPutDPHc0Q" name="variability">
+    <ownedAttribute xmi:id="_o5qcJMn3EeKFvPutDPHc0Q" name="base_Comment" association="_o5rDMsn3EeKFvPutDPHc0Q">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Comment"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_o5qcJcn3EeKFvPutDPHc0Q" name="name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o5qcJsn3EeKFvPutDPHc0Q" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o5qcJ8n3EeKFvPutDPHc0Q" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_o5qcKMn3EeKFvPutDPHc0Q" name="minSelection">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o5qcKcn3EeKFvPutDPHc0Q" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o5qcKsn3EeKFvPutDPHc0Q" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_o5qcK8n3EeKFvPutDPHc0Q" name="maxSelection">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o5qcLMn3EeKFvPutDPHc0Q" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o5qcLcn3EeKFvPutDPHc0Q" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_o5qcLsn3EeKFvPutDPHc0Q" name="bindingTime" type="_o5p1Fcn3EeKFvPutDPHc0Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o5qcL8n3EeKFvPutDPHc0Q" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o5qcMMn3EeKFvPutDPHc0Q" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_o5qcMcn3EeKFvPutDPHc0Q" name="allowAddingVar">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o5qcMsn3EeKFvPutDPHc0Q" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o5qcM8n3EeKFvPutDPHc0Q" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_o5qcNMn3EeKFvPutDPHc0Q" name="variants">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o5rDMMn3EeKFvPutDPHc0Q" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o5rDMcn3EeKFvPutDPHc0Q" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_o5rDMsn3EeKFvPutDPHc0Q" name="Comment_variability" memberEnd="_o5rDM8n3EeKFvPutDPHc0Q _o5qcJMn3EeKFvPutDPHc0Q">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_o5rDM8n3EeKFvPutDPHc0Q" name="extension_variability" type="_o5qcI8n3EeKFvPutDPHc0Q" aggregation="composite" association="_o5rDMsn3EeKFvPutDPHc0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_o5rDNMn3EeKFvPutDPHc0Q" name="interface">
+    <ownedAttribute xmi:id="_o5rDNcn3EeKFvPutDPHc0Q" name="base_Class" association="_o5rDNsn3EeKFvPutDPHc0Q">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_o5rDNsn3EeKFvPutDPHc0Q" name="Class_interface" memberEnd="_o5rDN8n3EeKFvPutDPHc0Q _o5rDNcn3EeKFvPutDPHc0Q">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_o5rDN8n3EeKFvPutDPHc0Q" name="extension_interface" type="_o5rDNMn3EeKFvPutDPHc0Q" aggregation="composite" association="_o5rDNsn3EeKFvPutDPHc0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_o5rDOMn3EeKFvPutDPHc0Q" name="concern">
+    <ownedAttribute xmi:id="_o5rDOcn3EeKFvPutDPHc0Q" name="base_Stereotype" association="_o5rDOsn3EeKFvPutDPHc0Q">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Stereotype"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_o5rDOsn3EeKFvPutDPHc0Q" name="Stereotype_concern" memberEnd="_o5rDO8n3EeKFvPutDPHc0Q _o5rDOcn3EeKFvPutDPHc0Q">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_o5rDO8n3EeKFvPutDPHc0Q" name="extension_concern" type="_o5rDOMn3EeKFvPutDPHc0Q" aggregation="composite" association="_o5rDOsn3EeKFvPutDPHc0Q"/>
+  </packagedElement>
+</uml:Profile>
